@@ -7,7 +7,6 @@ def set_min(A):
 
 def set_max(A):
     maxi = float('-inf')
-    print(maxi)
     for num  in A:
         if num > maxi:
             maxi = num
